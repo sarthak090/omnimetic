@@ -59,7 +59,10 @@ body {
   z-index: -5;
   background: linear-gradient(180deg, #5338d2 8.2%, #7d61ff 100%); */
 }
-
+.res-img {
+  width: 30rem;
+  height: 30rem;
+}
 .top-right-bckg {
   position: absolute;
   top: 0;

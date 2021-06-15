@@ -8,9 +8,9 @@ export default function Resource() {
   return (
     <>
       <Header />
-      <main className="container md:px-32 px-3 text-gray-800">
+      <main className="container md:px-32 px-3 text-gray-900">
         <div className="flex justify-center items-center w-full">
-          <section className="grid grid-cols-3 gap-8 bg-gray-100  justify-center ">
+          <section className="grid grid-cols-3 gap-8  justify-center ">
             <div className="col-span-3 md:col-span-2 my-12 md:w-3/4">
               <p className="text-indigo-600">Topic</p>
               <div className="flex gap-1 my-4 items-center">
@@ -38,8 +38,9 @@ export default function Resource() {
                 Lorem Ipsum.
               </div>
             </div>
-            <div className="hidden md:block animate-pulse  col-span-3 md:col-span-1 self-center">
-              <img src="/img/fplc.png" />
+            <div className="hidden md:block   col-span-3 md:col-span-1 self-center">
+              {/* <img src="/img/fplc.png" /> */}
+              <div className="res-img block bg-gray-400 rounded-lg shadow-xl"></div>
             </div>
           </section>
         </div>
