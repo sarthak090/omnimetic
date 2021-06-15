@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className=" py-8 text-gray-50">
-      <section className="container flex justify-between items-center px-12">
+      <section className="container flex flex-col md:flex-row justify-between items-center px-12">
         <div className="flex flex-col gap-4  justify-between">
           <div className="md:w-44">
             <img src="/img/white-logo.png" alt="footer-logo" />
@@ -125,7 +125,7 @@ export default function Footer() {
               <button className="btn-primary px-3 py-2 ml-2 ">Subscribe</button>
             </form>
           </div>
-          <div className="flex justify-around  mt-2 gap-8">
+          <div className="flex justify-around text-xs md:text-md mt-2 gap-8">
             <a href="/contact">Contact</a>
             <a href="/faqs">Faqs</a>
             <a href="/resources">Resources</a>

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 export default function Featured() {
   return (
-    <div className="flex justify-center w-full mt-8">
+    <div className="flex justify-center w-full mt-8 bg-white rounded-xl">
       <section className="grid grid-cols-3 border md:border-none shadow-2xl  border-gray-300 rounded-lg gap-8   justify-center ">
         <div className="animate-pulse col-span-3 flex justify-center md:col-span-1">
           <img src="img/fplc.png" className="h-auto" />

@@ -38,17 +38,18 @@ body {
   border-radius: 0 140px;
 } */
 .top-right-gradient {
-  /* position: absolute;
+  position: absolute;
   width: 913.82px;
   height: 850.25px;
-  
+
   right: -360px;
   top: -405px;
   z-index: -50;
   background: linear-gradient(180deg, #5338d2 8.2%, #7d61ff 100%);
   border-radius: 140px;
   transform: rotate(-38.99deg);
-   */
+
+  /*    
   position: absolute;
   top: -40%;
   right: -30%;
@@ -56,7 +57,7 @@ body {
   height: 800px;
   border-radius: 50%;
   z-index: -5;
-  background: linear-gradient(180deg, #5338d2 8.2%, #7d61ff 100%);
+  background: linear-gradient(180deg, #5338d2 8.2%, #7d61ff 100%); */
 }
 
 .top-right-bckg {

@@ -3,7 +3,9 @@ import Navbar from "./Navbar";
 export default function Header() {
   return (
     <header>
-      <div className="top-right-gradient"></div>
+      <div className="hidden xl:block">
+        <div className="top-right-gradient"></div>
+      </div>
       {/* <div className="top-right-bckg"></div> */}
       {/* <div className="absolute top-0 right-0 ">
         <svg

@@ -13,7 +13,7 @@ export default function Hero() {
           Omnimetic widget - access account details, monthly bills, and real
           time energy usage data.
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-start">
           <button className="btn-primary border  px-8 py-2 text-gray-50">
             Schedule Demo
           </button>
